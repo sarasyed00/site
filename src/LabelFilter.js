@@ -12,16 +12,10 @@ export function LabelFilter(props) {
             setSet(false)
             setBackgroundColor('#A0A299')
             props.removeFromFilteredLabels(props.title);
-            // props.filteredLabels.filter(function(item) {
-            //     return item !== props.title
-            // })
-            // props.setFilteredLabels(props.filteredLabels)
         }else{
             setSet(true)
             setBackgroundColor('#62635d')
             props.addToFilteredLabels(props.title)
-            // props.filteredLabels.push(props.title)
-            // props.setFilteredLabels(props.filteredLabels)
         }
     };
 

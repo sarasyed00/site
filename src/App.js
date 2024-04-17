@@ -23,16 +23,10 @@ function App() {
 
   function removeFromFilteredLabels(label){
     setFilteredLabels(l => l.filter(item => item !== label));
-    // const updated = filteredLabels.filter(function(item) {
-    //   return item !== label
-    // });
-    // setFilteredLabels(updated);
   };
 
   function addToFilteredLabels(label){
     setFilteredLabels(filteredLabels => [...filteredLabels, label]);
-    // filteredLabels.push(label)
-    // setFilteredLabels(filteredLabels);
   };
 
   useEffect(()=>{
@@ -41,7 +35,6 @@ function App() {
       setFilteredProjects(defaultProjects)
     }
     else{
-      // setFilteredProjects(defaultProjects.filter(proj => proj.props.labelslist.map(label => label.props.title).includes(filteredLabels[0])))
       setFilteredProjects(defaultProjects.filter(proj => {
         for(let i = 0; i < proj.props.labelslist.length; i++) {
           if( filteredLabels.includes(proj.props.labelslist[i].props.title)) {
@@ -51,7 +44,6 @@ function App() {
         return false;
       }))
     }
-        // proj.props.labelslist.map(label => label.props.title).reduce(title => filteredLabels.includes(title))
   }, [filteredLabels]);
 
   useEffect(() => {
@@ -113,7 +105,6 @@ function App() {
               {Labels.map(label => <div> {label} </div>)}
             </div>
             {filteredProjects.map(item => <div className="list-padding"> {item} </div> )}
-            {/* {Constants.projects.map(item => <div className="list-padding"><Project key={item.Key} title={item.Title} description={item.Description} image={item.Image} link={item.Link} linkslist={item.LinksList}/></div>)} */}
         </div>
       </section>
 
