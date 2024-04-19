@@ -4,7 +4,7 @@ export function Label(props) {
     return (
         <>
             <div style={props.backgroundColor ? {backgroundColor: props.backgroundColor} : {backgroundColor: '#A0A299'}} className="label" id="rcorners1">
-                <div class="flex-container" style={{"align-items": "center"}}>
+                <div class="non-responsive-flex-container" style={{"align-items": "center"}}>
                     <div>
                         <div style={{backgroundColor: props.color}} className="circle"> </div>
                     </div>

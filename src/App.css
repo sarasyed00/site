@@ -29,6 +29,19 @@ html {
 .flex-container {
   display: flex;
   column-gap: 10px;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.non-responsive-flex-container {
+  display: flex;
+  column-gap: 10px;
 }
 
 .one-container {
@@ -39,8 +52,8 @@ html {
   flex: 2;
 }
 
-.three-container {
-  flex: 3;
+.four-container {
+  flex: 4;
 }
 
 .full-padding {

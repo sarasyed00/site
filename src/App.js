@@ -90,7 +90,7 @@ function App() {
           <div className="one-container">
             <img className="headshot" src={Sara} alt="a photo of me"/>
           </div>
-          <div className="three-container left-align" style={{"padding-right":"30px"}}>
+          <div className="four-container" style={{"text-align": "left", "padding-right":"30px", "padding-left":"10px"}}>
             <h3 className="header3">Hi, I'm Sara </h3>
             <p>{Constants.bio}</p>
           </div>
