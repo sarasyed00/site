@@ -1,14 +1,15 @@
 import HBScreenshot from "./images/heartbeats.png";
 import WISH from "./images/WISH Paper.png";
+import CHI24 from "./images/CHI 24.png";
 
 const projectIDs = ["p1", "p2", "p3"]
 
 // CHI Publication
 const p1Title = "\"Machine and Human Understanding of Empathy\""
-const p1Description = "First author of paper in CHI’24, the top human-computer interaction conference. This paper evolved from my undergraduate thesis. I implemented a published deep learning model to measure empathy from peer support conversations and used js and python (pandas, numpy) for data collection, cleaning, and statistical analysis to understand shortcomings of machine learning approaches to quantifying human experience."
-const p1Link = "https://github.com/sarasyed00/Undergraduate_ComputerScience_Thesis"
-const p1LinksList = {}
-const p1Image = HBScreenshot
+const p1Description = "Co-first author of a paper in CHI’24, the top human-computer interaction conference (26.4% acceptance rate). This work evolved from my undergraduate thesis, in which I seek to understand how machines understand empathy, and how this compares to human experiences. To answer this question, I implemented an existing deep learning model that quantifies empathy from text, and used js and python (pandas, numpy) for data collection, cleaning, and statistical analysis to understand shortcomings of machine learning approaches to quantifying human experience."
+const p1Link = "https://dl.acm.org/doi/10.1145/3613904.3642034"
+const p1LinksList = {"View Paper": "https://dl.acm.org/doi/10.1145/3613904.3642034", "CHI'24": "https://chi2024.acm.org/", "Undergrad Thesis" : "https://github.com/sarasyed00/Undergraduate_ComputerScience_Thesis"}
+const p1Image = CHI24
 const p1LabelList = [{"key" : 1, "color" : "#FFD966", "title": "Paper"}]
 
 // Heart Beats
