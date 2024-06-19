@@ -14,7 +14,7 @@ const p1LabelList = [{"key" : 1, "color" : "#FFD966", "title": "Paper"}]
 
 // Heart Beats
 const p2Title = "Heart Beats: A Workout Music Recommender System"
-const p2Description = "Created music recommender web app (Flask, React) that connects to Strava and Spotify APIs to generate a recommended playlist by analyzing songs that correlated with the highest output in the user’s workout"
+const p2Description = "I created this web app because I always find myself listening to the same few songs during a good workout. By connecting your Strava and Spotify accounts, Heart Beats, generates a recommended workout playlist by analyzing songs that you listened to that correlated with the highest output in your workout."
 const p2Link = "https://github.com/sarasyed00/heartbeats/blob/master/README.md"
 const p2LinksList = {}
 const p2Image = HBScreenshot
@@ -34,4 +34,4 @@ export const projects = projectIDs.map(id => ({"Key": id, "Title": eval(id+"Titl
 
 export const labels = [{"key" : 1,"color" : "#304D30", "title": "Project"}, {"key" : 2, "color" : "#FFD966", "title": "Paper"}]
 
-export const bio = "This page is a bit of a Work-In-Progress, but I am a software engineer, travel enthusiast, and major thrill seeker (next on my bucket list is bunjee jumping!!). I have worked full time as a swe for around 2 years and I'm eager to continue to grow my technical expertise. I love learning and have had the opporutnity to research and publish in the Human-Computer Interaction field, which has grown my appreciation for building products with end-users in mind. I seek to differentiate myself as a software engineer by building with a product focus, and understanding the business and e2e impact of anything I do."
+export const bio = "This page is a bit of a Work-In-Progress. I am a software engineer, travel enthusiast, and major thrill seeker (next on my bucket list is bunjee jumping!!). I have worked full time as a swe for around 2 years and I'm eager to continue to grow my technical expertise. I love learning and have had the opportunity to research and publish in the field of Human-Computer Interaction, which has grown my appreciation for building products with end-users in mind. I seek to differentiate myself as a software engineer by building with a product focus, and understanding the business and e2e impact of anything I do."

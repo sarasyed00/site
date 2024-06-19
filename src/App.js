@@ -80,7 +80,7 @@ function App() {
       <Navbar sticky="top" style={{ backgroundColor: '#304D30' }} variant="dark">
         <Nav className="mr-auto">
             <a className={activeSection === 'home' ? 'nav-link active' : 'nav-link'} href="#home" onClick={e => clickTab('home')}>About Me</a>
-            <a className={activeSection === 'projects' ? 'nav-link active' : 'nav-link'} href="#projects" onClick={e => clickTab('projects')}>Projects and Publications</a>
+            <a className={activeSection === 'projects' ? 'nav-link active' : 'nav-link'} href="#projects" onClick={e => clickTab('projects')}>Personal Work</a>
             <a className={activeSection === 'contact' ? 'nav-link active' : 'nav-link'} href="#contact" onClick={e => clickTab('contact')}>Contact</a>
         </Nav>
       </Navbar>
@@ -100,7 +100,7 @@ function App() {
 
       <section id="projects">
         <div className="top-padding">
-            <h3 className="header3">Projects and Publications</h3>
+            <h3 className="header3">Personal Work</h3>
             <div className="flex-container label-filter-container">
               {Labels.map(label => <div> {label} </div>)}
             </div>
